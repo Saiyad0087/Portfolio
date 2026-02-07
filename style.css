@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    color: #fff;
+    background: #0f172a;
+    overflow-x: hidden;
+}
+
+/* Background gradient */
+.bg {
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(circle at top left, #2563eb, transparent 40%),
+                radial-gradient(circle at bottom right, #9333ea, transparent 40%);
+    z-index: -1;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10%;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+/* Hero */
+.hero {
+    padding: 120px 10% 80px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero h1 span {
+    color: #60a5fa;
+}
+
+.hero p {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #cbd5f5;
+}
+
+.hero-btns {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+/* Buttons */
+.btn {
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.primary {
+    background: #2563eb;
+    color: white;
+}
+
+.primary:hover {
+    background: #1d4ed8;
+}
+
+.outline {
+    border: 1px solid #60a5fa;
+    color: #60a5fa;
+}
+
+.outline:hover {
+    background: rgba(96,165,250,0.1);
+}
+
+/* Glass cards */
+.card {
+    margin: 40px 10%;
+    padding: 40px;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color: #93c5fd;
+}
+
+/* Skills */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills span {
+    background: rgba(255,255,255,0.15);
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* Projects */
+.project {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #94a3b8;
+}
