@@ -155,3 +155,24 @@ footer {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* ===============================
+   Hover Micro Animations
+   =============================== */
+
+.btn {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
